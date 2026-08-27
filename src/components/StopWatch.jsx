@@ -42,7 +42,7 @@ export function StopWatch() {
       <button className="w-32 px-4 py-3 text-lg font-bold text-white bg-green-500 rounded hover:bg-green-600 active:bg-green-700" onClick={()=>setIsRunning(true)} >Start</button>
       <button className="w-32 px-4 py-3 text-lg font-bold text-white bg-red-500 rounded hover:bg-red-600 active:bg-red-700" onClick={()=>setIsRunning(false)} >Stop</button>
       <button className="w-32 px-4 py-3 text-lg font-bold text-white bg-blue-500 rounded hover:bg-blue-600 active:bg-blue-700 mb-6" onClick={()=>setLap([...lap , lapVar ])}>Lap</button>
-      {lap.map((lapTime)=><p className="text-xl font-mono text-slate-300 bg-slate-800 px-6 py-2 rounded-md min-w-[200px] text-center">{lapTime}</p>)}
+      {lap.map((lapTime)=><p className="text-xl font-mono text-slate-300 bg-slate-800 px-6 py-2 rounded-md min-w-50 text-center">{lapTime}</p>)}
     </div>
   );
 }

@@ -3,6 +3,7 @@ import './App.css'
 import { LiveClock } from './components/LiveClock'
 import { Pomodoro } from './components/Pomodoro'
 import { StopWatch } from './components/StopWatch'
+import { Todo } from './components/Todo'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<LiveClock />}/>  
         <Route path='/pomodoro' element={<Pomodoro />} />
         <Route path='/stopwatch' element={<StopWatch />} />
+        <Route path='/todo' element={<Todo />} />
       </Routes>  
     </>
   )
