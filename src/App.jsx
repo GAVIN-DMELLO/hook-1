@@ -11,6 +11,7 @@ import Resize from './components/Resize'
 import { Notes } from './components/Notes'
 import { Search } from './components/Search'
 import { IdleDetector } from './components/IdleDetector'
+import { CurrencyConverter } from './components/CurrencyConverter'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/notes' element={<Notes />} />
         <Route path='/search' element={<Search />} />
         <Route path='/idle' element={<IdleDetector />} />
+        <Route path='/currency-converter' element={<CurrencyConverter />} />
       </Routes>  
     </>
   )
