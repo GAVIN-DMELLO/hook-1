@@ -7,6 +7,7 @@ import { Todo } from './components/Todo'
 import { HabitTracker } from './components/HabitTracker'
 import { Joker } from './components/Joker'
 import Network from './components/Network'
+import Resize from './components/Resize'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/habittracker' element={<HabitTracker />} />
         <Route path='/joker' element={<Joker />} />
         <Route path='/network' element={<Network />} />
+        <Route path='/resize' element={<Resize />} />
       </Routes>  
     </>
   )
