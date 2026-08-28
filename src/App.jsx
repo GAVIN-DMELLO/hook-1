@@ -6,6 +6,7 @@ import { StopWatch } from './components/StopWatch'
 import { Todo } from './components/Todo'
 import { HabitTracker } from './components/HabitTracker'
 import { Joker } from './components/Joker'
+import Network from './components/Network'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/todo' element={<Todo />} />
         <Route path='/habittracker' element={<HabitTracker />} />
         <Route path='/joker' element={<Joker />} />
+        <Route path='/network' element={<Network />} />
       </Routes>  
     </>
   )
