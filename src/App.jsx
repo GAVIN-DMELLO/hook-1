@@ -10,6 +10,7 @@ import Network from './components/Network'
 import Resize from './components/Resize'
 import { Notes } from './components/Notes'
 import { Search } from './components/Search'
+import { IdleDetector } from './components/IdleDetector'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/resize' element={<Resize />} />
         <Route path='/notes' element={<Notes />} />
         <Route path='/search' element={<Search />} />
+        <Route path='/idle' element={<IdleDetector />} />
       </Routes>  
     </>
   )
