@@ -8,6 +8,8 @@ import { HabitTracker } from './components/HabitTracker'
 import { Joker } from './components/Joker'
 import Network from './components/Network'
 import Resize from './components/Resize'
+import { Notes } from './components/Notes'
+import { Search } from './components/Search'
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/joker' element={<Joker />} />
         <Route path='/network' element={<Network />} />
         <Route path='/resize' element={<Resize />} />
+        <Route path='/notes' element={<Notes />} />
+        <Route path='/search' element={<Search />} />
       </Routes>  
     </>
   )
